@@ -2,7 +2,7 @@ class Tank {
     constructor(leftOffset, tankOwner) {
         this.angle = 0;
         this.leftOffset = leftOffset;
-        this.fireRate = 5;
+        this.fireRate = 1;
         this.readyToFire = true;
         this.tankSizeX = 100;
         this.tankSizeY = 100;
